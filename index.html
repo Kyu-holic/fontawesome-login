@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <from class="info">
+            <!-- 정석대로하면 email의 type은 email, phone number의 타입은 tel이 되어야 백엔드를 개발할 때 email에 @가 들어가지 않거나 tel에 문자가 들어갈 경우 오류를 발생시키기 때문에 text로 하면 안됨 -->
+            <div class="item">
+                <input type="text" placeholder="Your Name" />
+                <i class="fa fa-user"></i>
+            </div>
+            <div class="item">
+                <input type="email" placeholder="Email" />
+                <i class="fa fa-envelope"></i>
+            </div>
+            <div class="item">
+                <input type="tel" placeholder="Phone Number" />
+                <i class="fa fa-phone"></i>
+            </div>
+        </from>
+    </body>
+</html>
